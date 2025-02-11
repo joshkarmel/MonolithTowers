@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\shua\\documents\\unreal projects\\monolithtowers\\source\\monolithtowers\\monolithtowers.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\shua\\documents\\unreal projects\\monolithtowers\\intermediate\\build\\win64\\x64\\monolithtowerseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\shua\\documents\\unreal projects\\monolithtowers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\monolithtowers\\definitions.monolithtowers.h",
+            "c:\\users\\shua\\documents\\unreal projects\\monolithtowers\\source\\monolithtowers\\monolithtowers.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

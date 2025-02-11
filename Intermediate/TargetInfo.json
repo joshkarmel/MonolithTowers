@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MonolithTowers",
+			"Path": "..\\Source\\MonolithTowers.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MonolithTowersEditor",
+			"Path": "..\\Source\\MonolithTowersEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
