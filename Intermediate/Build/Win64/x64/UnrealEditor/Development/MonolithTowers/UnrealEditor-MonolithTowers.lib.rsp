@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-MonolithTowers.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Shua\Documents\Unreal Projects\MonolithTowers\Intermediate\Build\Win64\x64\MonolithTowersEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"C:\Users\Shua\Documents\Unreal Projects\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\MonolithTowers.cpp.obj"
-"C:\Users\Shua\Documents\Unreal Projects\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\Default.rc2.res"
-/OUT:"C:\Users\Shua\Documents\Unreal Projects\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\UnrealEditor-MonolithTowers.lib"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\MonolithTowersEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\MonolithTowers.cpp.obj"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\Default.rc2.res"
+/OUT:"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\UnrealEditor-MonolithTowers.lib"
