@@ -7,6 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\MonolithTowersEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\FCardData.gen.cpp.obj"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\MonolithTowers.init.gen.cpp.obj"
 "C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\MonolithTowers.cpp.obj"
+"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\FCardData.cpp.obj"
 "C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\Default.rc2.res"
 /OUT:"C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\x64\UnrealEditor\Development\MonolithTowers\UnrealEditor-MonolithTowers.lib"

@@ -15,6 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <None Include="..\..\README.md" />
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -42,11 +43,17 @@
     <ClInclude Include="..\..\Source\MonolithTowers\MonolithTowers.h">
       <Filter>Source\MonolithTowers</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FCardData.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FCardData.cpp" />
+    <Filter Include="Source\MonolithTowers\Private">
+      <UniqueIdentifier>{673A15CC-6D6F-32FA-999F-EDA230E58841}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MonolithTowers\Private\FCardData.cpp">
+      <Filter>Source\MonolithTowers\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MonolithTowers\Public">
+      <UniqueIdentifier>{63F0A6A9-A6E3-3564-9971-CD0D391D7F24}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MonolithTowers\Public\FCardData.h">
+      <Filter>Source\MonolithTowers\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

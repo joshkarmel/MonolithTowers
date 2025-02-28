@@ -10,3 +10,11 @@ FCardData::FCardData()
 FCardData::~FCardData()
 {
 }
+
+FSetType::FSetType()
+{
+}
+
+FSetType::~FSetType()
+{
+}

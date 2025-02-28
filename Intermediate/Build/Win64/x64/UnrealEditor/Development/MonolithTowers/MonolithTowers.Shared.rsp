@@ -1,5 +1,8 @@
 /I "."
+/I "C:\Users\mattb\Documents\GitHub\MonolithTowers\Source\MonolithTowers\Private"
+/I "C:\Users\mattb\Documents\GitHub\MonolithTowers\Intermediate\Build\Win64\UnrealEditor\Inc\MonolithTowers\UHT"
 /I "C:\Users\mattb\Documents\GitHub\MonolithTowers\Source"
+/I "C:\Users\mattb\Documents\GitHub\MonolithTowers\Source\MonolithTowers\Public"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"
