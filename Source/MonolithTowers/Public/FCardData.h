@@ -94,7 +94,7 @@ public:
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "BaseMoveMent", MakeStructureDefaultValue = "0"))
-		uint8 BaseMoveMent;
+		uint8 BaseMovement;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Range Type", MakeStructureDefaultValue = "NONE"))
