@@ -9,17 +9,18 @@
 
 /** Please add a struct description */
 USTRUCT(BlueprintType)
-struct FCardData :public FTableRowBase
+struct FCardData : public FTableRowBase
 {
 	GENERATED_USTRUCT_BODY()
+
 public:
 	FCardData();
 	~FCardData();
-	
+
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Name", MakeStructureDefaultValue = "None"))
-		FName Name;
-	
+	FName Name;
+
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Set Code"))
 	FSetType SetCode;
@@ -29,7 +30,8 @@ public:
 	Card_Type CardType;
 
 	/** Please add a variable description */
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Card Nation", MakeStructureDefaultValue = "NONE"))
+	UPROPERTY(BlueprintReadWrite, EditAnywhere,
+		meta = (DisplayName = "Card Nation", MakeStructureDefaultValue = "NONE"))
 	Card_Nation CardNation;
 
 	/** Please add a variable description */
@@ -42,39 +44,39 @@ public:
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Card Image", MakeStructureDefaultValue = "None"))
-		TObjectPtr<UTexture2D> CardImage;
+	TObjectPtr<UTexture2D> CardImage;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Effect 1"))
-		FText Effect1;
+	FText Effect1;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Effect 2"))
-		FText Effect2;
+	FText Effect2;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Notifier 1"))
-		TArray<Effect_Notifier> Notifier1;
+	TArray<Effect_Notifier> Notifier1;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Notifier 2"))
-		TArray<Effect_Notifier> Notifier2;
+	TArray<Effect_Notifier> Notifier2;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Prompt 1"))
-		FText Prompt1;
+	FText Prompt1;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Prompt 2"))
-		FText Prompt2;
+	FText Prompt2;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Loc1", MakeStructureDefaultValue = "FIELD"))
-		TEnumAsByte<Location_Notifier> Loc1;
+	TEnumAsByte<Location_Notifier> Loc1;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Loc2", MakeStructureDefaultValue = "FIELD"))
-		TEnumAsByte<Location_Notifier> Loc2;
+	TEnumAsByte<Location_Notifier> Loc2;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Grade", MakeStructureDefaultValue = "0"))
@@ -82,8 +84,8 @@ public:
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "BaseATK", MakeStructureDefaultValue = "0"))
-	int32 BaseATK;	
-	
+	int32 BaseATK;
+
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "BaseDEF", MakeStructureDefaultValue = "0"))
 	int32 BaseDEF;
@@ -93,16 +95,17 @@ public:
 	int32 BaseHP;
 
 	/** Please add a variable description */
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "BaseMoveMent", MakeStructureDefaultValue = "0"))
-		uint8 BaseMovement;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "BaseMovement", MakeStructureDefaultValue = "0"))
+	uint8 BaseMovement;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Range Type", MakeStructureDefaultValue = "NONE"))
 	Range_Type RangeType;
 
 	/** Please add a variable description */
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Base Projectile Speed", MakeStructureDefaultValue = "0"))
-		uint8 BaseProjSpeed;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere,
+		meta = (DisplayName = "Base Projectile Speed", MakeStructureDefaultValue = "0"))
+	uint8 BaseProjSpeed;
 
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Artist"))
@@ -111,5 +114,4 @@ public:
 	/** Please add a variable description */
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (DisplayName = "Rarity", MakeStructureDefaultValue = "COMMON"))
 	Card_Rarity Rarity;
-
 };

@@ -1,0 +1,2 @@
+Name,Setcode,Card Type,Card Nation,Card Guild,Card Image,Effect1,Effect2,Notifier1,Notifier2,Prompt1,Prompt2,Loc1,Loc2,Grade,BaseATK,BaseDEF,BaseHP,BaseMovement,RangeType,BaseProjSpeed,Artist,Rarity
+Nomads Cathedral,,Monolith,Nomadic,Nomadic,,Draw 1 card then Discard 1 card,If you Summon a Unit: Draw 1 card.,[ACT],"[Aura,Auto]",,,,,,0,5,50,0,Diamond,0,,

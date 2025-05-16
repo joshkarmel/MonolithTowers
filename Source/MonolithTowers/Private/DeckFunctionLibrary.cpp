@@ -3,8 +3,6 @@
 
 #include "DeckFunctionLibrary.h"
 
-#include "HairStrandsInterface.h"
-
 TArray<FCardData> UDeckFunctionLibrary::CreateDeck()
 {
 	TArray<FCardData> NewDeck;
